@@ -1,18 +1,21 @@
+/* Propiedades de Página */
+
 *{
-    background-color:beige;
+    background-color:rgb(228, 228, 222);
     margin:0px;
-    
+
 }
 
 a{
-    color: red ;
+    color: rgb(175, 19, 19) ;
     text-decoration: none;
 }
 
 a:hover{
-    color: pink ;
+    color: rgb(194, 42, 67) ;
 }
 
 a:visited{
-    color: blue ;
+    color: rgb(0, 114, 25) ;
+    
 }
