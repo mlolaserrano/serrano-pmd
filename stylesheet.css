@@ -1,0 +1,18 @@
+*{
+    background-color:beige;
+    margin:0px;
+    
+}
+
+a{
+    color: red ;
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink ;
+}
+
+a:visited{
+    color: blue ;
+}
