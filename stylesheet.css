@@ -1,9 +1,9 @@
+
 /* Propiedades de Página */
 
 *{
     background-color:rgb(241, 241, 241);
     margin:0px;
-
 }
 
 a{
@@ -20,8 +20,46 @@ a:visited{
     
 }
 
-/* id */
 
-#divisor1{
+
+/* Divisores - id */
+
+#divisor{
+    font-family: "Roboto Slab", serif;
+    background-color:#ebe6ea;
+    margin-left: auto ; 
+    margin-right: auto ; 
+    border-style: none ;
+    border-width: 0 ;
+
+}
+
+#divisor2{
+    font-family: "Roboto", sans-serif;
+    background-color: #e4c5c4;
+    margin-left: auto ; 
+    margin-right: auto ; 
+    border-style: none ;
+    border-width: 0 ;
+
+}
+
+#divisor3{
+    font-family: "Roboto", sans-serif;
+    background-color: #c8ad8d;
+    margin-left: auto ; 
+    margin-right: auto ; 
+    border-style: none ;
+    border-width: 0 ;
+
+}
+
+#divisor4{
+    font-family: "Roboto", sans-serif;
+    background-color: #6f7357;
+    margin-left: auto ; 
+    margin-right: auto ; 
+    border-style: none ;
+    border-width: 0 ;
 
 }
