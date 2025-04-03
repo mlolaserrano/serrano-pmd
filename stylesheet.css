@@ -148,7 +148,7 @@ a:visited{
 
 #izquierda{
     float: left;
-    height: 600px ;
+    height: 545px ;
     width: 785px;
     border-style: none;
     border-width: 0px;
@@ -162,11 +162,11 @@ a:visited{
 
 #derecha{
     float: right;
-    height: 590px;
-    width: 790px;
+    height: 545px;
+    width: 795px;
     margin-left: auto; 
     margin-right: auto; 
-    border: 5px solid var(--color5); 
+    border: 2px solid var(--color5); 
     
 }
 
@@ -269,7 +269,7 @@ a:visited{
 
     float: left;
     height: 600px;
-    width: 799px;
+    width: 800px;
     margin-left: auto; 
     margin-right: auto; 
     border-style: none;
@@ -282,7 +282,7 @@ a:visited{
 
     float: right;
     height: 600px;
-    width: 799px;
+    width: 798px;
     margin-left: auto; 
     margin-right: auto; 
     border-style: none;
@@ -293,7 +293,7 @@ a:visited{
 #izq2{
     float: left;
     height: 600px;
-    width: 397px;
+    width: 398px;
     margin-left: auto; 
     margin-right: auto; 
     border: 1px solid var(--color5); 
@@ -302,17 +302,16 @@ a:visited{
 #dere2{
     float: right;
     height: 600px;
-    width: 397px;
+    width: 396px;
     margin-left: auto; 
     margin-right: auto; 
     border: 1px solid var(--color5); 
 }
 
-
 #izq3{
     float: left;
     height: 600px;
-    width: 397px;
+    width: 396px;
     margin-left: auto; 
     margin-right: auto; 
     border: 1px solid var(--color5); 
@@ -321,7 +320,7 @@ a:visited{
 #dere3{
     float: right;
     height: 600px;
-    width: 397px;
+    width: 396px;
     margin-left: auto; 
     margin-right: auto; 
     border: 1px solid var(--color5); 
