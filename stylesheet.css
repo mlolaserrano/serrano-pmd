@@ -1,4 +1,7 @@
 /* Pasar de porcentaje a px sin problema */
+/* Paso 7: Hoja de estilo externa */
+
+/* id, clase: clase para esrtructura general comun de cada caja, con el id modificas la estrucuta sin necesidad de tener distintas clases y divs */
 
 
 /* Propiedades de Página */
@@ -34,7 +37,10 @@ a:visited{
 }
 
 
+/* Css index */
+
 /* Divisores - id */
+
 
 #divisor{
     background-color: var(--color1);
