@@ -1,19 +1,18 @@
 
 /* Propiedades de Página */
-
 :root {
-    --color1: #094344;
-    --color2: #DB9489;
+    --color1: #4bcc96;
+    --color2: #00aea5;
     --color3: #E9E3CD;
     --color4: #99ad77;
-    --color5: #657946;
+    --color5: #364955;
     --texto: #1f1f1f;
+    --titulo: #166b8d;
     --transparente: rgba(0, 0, 0, 0);
   }
 
 *{
     margin:0px;
-    font-family: "Roboto", sans-serif;
     background-color: var(--color3);
 }
 
@@ -31,9 +30,11 @@ a:visited{
     
 }
 
+p{
+    background-color: var(--transparente);
+}
 
 /* Divisores - id */
-
 #divisor{
     background-color: var(--color1);
     margin-left: auto; 
@@ -50,6 +51,7 @@ a:visited{
     margin-right: auto; 
     border-style: none;
     border-width: 0px;
+
 }
 
 #divisor3{
@@ -66,7 +68,7 @@ a:visited{
     margin-right: auto; 
     border-style: none;
     border-width: 0px;
-    padding-top: 20px
+   /* padding-top: 20px */
 
 }
 
@@ -88,7 +90,6 @@ a:visited{
 }
 
 /* Divisores secundarios */
-
 #encabezado{
     background-color: var(--transparente);
     border-style: none;
@@ -96,7 +97,7 @@ a:visited{
     margin-left: auto; 
     margin-right: auto; 
     width: 1600px; /*Referencia: No todos tienen el mismo monitor por lo que se elige una medida estandar. 1600px es ideal */
-    height: 60px;
+    height: 30px;
 
 } 
 
@@ -108,7 +109,6 @@ a:visited{
     margin-right: auto; 
     width: 1600px;
     height: 50px;
-
 
 }
 
@@ -135,7 +135,6 @@ a:visited{
 }
 
 /* Cuerpo */
-
 #titulo{
     border-style: none;
     border-width: 0px;
@@ -149,6 +148,7 @@ a:visited{
 }
 
 #izquierda{
+    background-color: var(--transparente);
     float: left;
     height: 545px ;
     width: 785px;
@@ -157,19 +157,23 @@ a:visited{
     margin-left: auto; 
     margin-right: auto; 
     border-width: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
     
 }
 
 #derecha{
     float: right;
     height: 545px;
-    width: 795px;
+    width: 796px;
     margin-left: auto; 
     margin-right: auto; 
-    border: 2px solid var(--color5); 
-    
+    border: 1px solid var(--color5); 
+    margin-top: 16px;
+        
 }
 
 #contenido{
@@ -178,21 +182,20 @@ a:visited{
     margin-left: auto; 
     margin-right: auto; 
     width: 1590px; 
-    height: 90px;
+    height: auto;
     clear: both;
     padding-left: 5px;
     padding-right: 5px;
-    overflow-y: auto;
-  
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+   /* overflow-y: auto; */
 
 }
 
 
 /* 3 Columnas */
-
 /* Primer columna */
-
-
 #cuerpo2{
 
     
@@ -206,8 +209,6 @@ a:visited{
 
 }
 
-
-
 #cuerpoizq{
 
     float: left;
@@ -216,15 +217,10 @@ a:visited{
     margin-left: auto; 
     margin-right: auto; 
     border: 1px solid var(--color5); 
-
     
 }
 
-
-
 /* 2da y 3ra */
-
-
 #cuerpoder{
 
     float: right;
@@ -245,6 +241,7 @@ a:visited{
     margin-left: auto; 
     margin-right: auto; 
     border: 1px solid var(--color5); 
+
 }
 
 #dere1{
@@ -257,21 +254,19 @@ a:visited{
 }
 
 /* 4 Columnas */
-
 #cuerpo3{
-
     background-color: var(--transparente);
     border-style: none;
     border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
     width: 1600px;
-    height: 700px;
+    height: auto;
+    padding-bottom: 10px;
 
 }
 
 #cuerpoizq2{
-
     float: left;
     height: 600px;
     width: 800px;
@@ -279,7 +274,6 @@ a:visited{
     margin-right: auto; 
     border-style: none;
     border-width: 0px;
-
 
 }
 
@@ -329,4 +323,30 @@ a:visited{
     margin-left: auto; 
     margin-right: auto; 
     border: 1px solid var(--color5); 
+}
+
+/* Clases */
+.title{
+font-family: "Unbounded", sans-serif;
+font-size: 25px;
+color: var(--titulo);
+text-align: center;
+font-style: normal;
+font-weight: bold;
+font-variant: normal;
+text-decoration: none;
+
+}
+
+.texto{
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+color: var(--texto);
+text-align: justify;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-decoration: none;
+line-height: 18px;
+
 }
