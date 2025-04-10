@@ -1,3 +1,8 @@
+/* Pasar de porcentaje a px sin problema */
+/* Paso 7: Hoja de estilo externa */
+
+/* id, clase: clase para esrtructura general comun de cada caja, con el id modificas la estrucuta sin necesidad de tener distintas clases y divs */
+
 
 /* Propiedades de Página */
 :root {
@@ -30,11 +35,9 @@ a:visited{
     
 }
 
-p{
-    background-color: var(--transparente);
-}
 
 /* Divisores - id */
+
 #divisor{
     background-color: var(--color1);
     margin-left: auto; 
@@ -68,7 +71,7 @@ p{
     margin-right: auto; 
     border-style: none;
     border-width: 0px;
-   /* padding-top: 20px */
+    padding-top: 20px
 
 }
 
@@ -192,6 +195,7 @@ p{
    /* overflow-y: auto; */
 
 }
+
 
 
 /* 3 Columnas */
