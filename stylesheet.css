@@ -13,6 +13,7 @@
     --color5: #364955;
     --texto: #1f1f1f;
     --titulo: #166b8d;
+    --subtitulo: #545479;
     --transparente: rgba(0, 0, 0, 0);
   }
 
@@ -33,6 +34,10 @@ a:hover{
 a:visited{
     color: rgb(163, 61, 223);
     
+}
+
+p{
+    padding: 5px;
 }
 
 
@@ -145,7 +150,7 @@ a:visited{
     margin-right: auto; 
     width: 70%; /* (% del total del valor en px) */
     height: 50px; /* Siempre restarle el padding al valor que uno quiere */
-    padding-top: 25px ;
+    padding-top: 10px ;
     text-align: center;
 
 }
@@ -341,6 +346,18 @@ font-variant: normal;
 text-decoration: none;
 
 }
+
+.subtitulo{
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-size: 15px;
+    color: var(--subtitulo);
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-decoration: none;
+    
+    }
 
 .texto{
 font-family: "Roboto", sans-serif;
