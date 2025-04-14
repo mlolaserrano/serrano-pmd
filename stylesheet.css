@@ -1,19 +1,16 @@
 /* Pasar de porcentaje a px sin problema */
 /* Paso 7: Hoja de estilo externa */
-
 /* id, clase: clase para esrtructura general comun de cada caja, con el id modificas la estrucuta sin necesidad de tener distintas clases y divs */
-
-
 /* Propiedades de Página */
 :root {
-    --color1: #4bcc96;
-    --color2: #00aea5;
-    --color3: #E9E3CD;
-    --color4: #99ad77;
-    --color5: #364955;
-    --texto: #1f1f1f;
-    --titulo: #166b8d;
-    --subtitulo: #545479;
+    --color1: #271D4E;
+    --color2:#342C65;
+    --color3: #FBFBFB;
+    --color4: #413C7D;
+    --color5: #686868;
+    --texto: #272727;
+    --titulo: #6fa7dc;
+    --subtitulo: #906fdc;
     --transparente: rgba(0, 0, 0, 0);
   }
 
@@ -43,6 +40,7 @@ p{
 
 /* Divisores - id */
 
+/* Encabezado */
 #divisor{
     background-color: var(--color1);
     margin-left: auto; 
@@ -53,6 +51,7 @@ p{
 
 }
 
+/* Navegación */
 #divisor2{
     background-color: var(--color2);
     margin-left: auto; 
@@ -62,8 +61,8 @@ p{
 
 }
 
+/* Titulo del Sitio */
 #divisor3{
-    background-color: var(--color3);
     margin-left: auto; 
     margin-right: auto; 
     border-style: none;
@@ -71,16 +70,8 @@ p{
 
 }
 
-#divisor4{  
-    margin-left: auto; 
-    margin-right: auto; 
-    border-style: none;
-    border-width: 0px;
-    padding-top: 20px
-
-}
-
-#divisor5{  
+/* Columnas */
+#divisor4 #divisor5{  
     margin-left: auto; 
     margin-right: auto; 
     border-style: none;
@@ -88,6 +79,8 @@ p{
 
 }
 
+
+/* Footer */
 #divisor6{  
     background-color: var(--color4);
     margin-left: auto; 
@@ -104,7 +97,7 @@ p{
     border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
-    width: 1600px; /*Referencia: No todos tienen el mismo monitor por lo que se elige una medida estandar. 1600px es ideal */
+    width: 1200px; /*Referencia: No todos tienen el mismo monitor por lo que se elige una medida estandar. 1600px es ideal */
     height: 30px;
 
 } 
@@ -115,7 +108,7 @@ p{
     border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
-    width: 1600px;
+    width: 1200px;
     height: 50px;
 
 }
@@ -126,8 +119,8 @@ p{
     border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
-    width: 1600px;
-    height: auto;
+    width: 1200px;
+    height: 1550px;
 
 }
 
@@ -137,7 +130,7 @@ p{
     border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
-    width: 1600px;
+    width: 1200px;
     height: 100px;
 
 }
@@ -148,149 +141,42 @@ p{
     border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
-    width: 70%; /* (% del total del valor en px) */
-    height: 50px; /* Siempre restarle el padding al valor que uno quiere */
-    padding-top: 10px ;
+    width: 1200px; 
+    height: 40px; /* Siempre restarle el padding al valor que uno quiere */
+    padding: 10px ;
     text-align: center;
 
 }
 
-#izquierda{
-    background-color: var(--transparente);
-    float: left;
-    height: 545px ;
-    width: 785px;
-    border-style: none;
-    border-width: 0px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border-width: 0px;
-    margin-top: 10px ;
-    margin-bottom: 10px ;
-    padding-top: 5px;
-    padding-bottom: 10px;
-
-    
-}
-
-#derecha{
-    float: right;
-    height: 545px;
-    width: 796px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border: 1px solid var(--color5); 
-    margin-top: 16px;
-        
-}
-
-#contenido{
-    border-style: none;
-    border-width: 0px;
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 1590px; 
-    height: auto;
-    clear: both;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-   /* overflow-y: auto; */
-
-}
-
-
-
-/* 3 Columnas */
-/* Primer columna */
-#cuerpo2{
-
-    
-    background-color: var(--transparente);
-    border-style: none;
-    border-width: 0px;
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 1600px;
-    height: 620px;
-
-}
-
-#cuerpoizq{
-
-    float: left;
-    height: 600px;
-    width: 530px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border: 1px solid var(--color5); 
-    
-}
-
-/* 2da y 3ra */
-#cuerpoder{
-
-    float: right;
-    height: 650px;
-    width: 1066px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border-style: none;
-    border-width: 0px;
-    background-color: var(--transparente);
-
-}
-
-#izq1{
-    float: left;
-    height: 600px;
-    width: 530px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border: 1px solid var(--color5); 
-
-}
-
-#dere1{
-    float: right;
-    height: 600px;
-    width: 530px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border: 1px solid var(--color5); 
-}
-
 /* 4 Columnas */
-#cuerpo3{
+#columnas-4{
     background-color: var(--transparente);
     border-style: none;
     border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
-    width: 1600px;
-    height: auto;
-    padding-bottom: 10px;
+    width: 1200px;
+    height: 416px;
 
 }
 
 #cuerpoizq2{
     float: left;
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 600px;
     margin-left: auto; 
     margin-right: auto; 
     border-style: none;
     border-width: 0px;
+
 
 }
 
 #cuerpoder2{
 
     float: right;
-    height: 600px;
-    width: 798px;
+    height: 400px;
+    width: 600px;
     margin-left: auto; 
     margin-right: auto; 
     border-style: none;
@@ -300,39 +186,148 @@ p{
 
 #izq2{
     float: left;
-    height: 600px;
-    width: 398px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border: 1px solid var(--color5); 
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5); 
+    padding: 5px;
+    margin: 2px
+
+
 }
 
 #dere2{
-    float: right;
-    height: 600px;
-    width: 396px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border: 1px solid var(--color5); 
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5); 
+    padding: 5px;
+    margin: 2px
+
+
 }
 
 #izq3{
     float: left;
-    height: 600px;
-    width: 396px;
-    margin-left: auto; 
-    margin-right: auto; 
-    border: 1px solid var(--color5); 
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5); 
+    padding: 5px;
+    margin: 2px
+  
 }
 
 #dere3{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5); 
+    padding: 5px;
+    margin: 2px
+
+}
+
+/* 2 Columnas */
+#izquierda{
+    background-color: var(--transparente);
+    float: left;
+    height: 545px ;
+    width: 584px;
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 5px 2px; 
+    padding: 5px;
+    border-width: 0px;
+    border: 1px dotted  var(--color5); 
+
+}
+
+#derecha{
     float: right;
-    height: 600px;
-    width: 396px;
+    height: 545px ;
+    width: 584px;
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 5px 2px; 
+    padding: 5px;
+    border-width: 0px;
+    border: 1px solid  var(--color5); 
+}
+
+/* Contenido que tendria scroll */
+#contenido{
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 3px 2px; 
+
+    padding: 5px; 
+    width: 1184px;
+    height: 50px;
+    clear: both;
+    border: 1px dotted  var(--color5); 
+
+   /* overflow-y: auto; */
+
+}
+
+/* 3 Columnas */
+/* Primer columna */
+#columnas-2{
+   
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
-    border: 1px solid var(--color5); 
+    width: 1200px;
+    height: 400px;
+
 }
+
+#cuerpoizq{
+
+    float: left;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5); 
+    
+}
+
+/* 2da y 3ra */
+#cuerpoder{
+
+    float: right;
+    height: 400px;
+    width: 800px;
+    margin-left: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-width: 0px;
+    background-color: var(--transparente);
+
+}
+
+#izq1{
+    float: left;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5); 
+
+}
+
+#dere1{
+    float: right;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5); 
+}
+
+
 
 /* Clases */
 .title{
