@@ -39,7 +39,6 @@ p{
 
 
 /* Divisores - id */
-
 /* Encabezado */
 #divisor{
     background-color: var(--color1);
@@ -173,7 +172,6 @@ p{
 }
 
 #cuerpoder2{
-
     float: right;
     height: 400px;
     width: 600px;
@@ -192,7 +190,6 @@ p{
     padding: 5px;
     margin: 2px
 
-
 }
 
 #dere2{
@@ -202,7 +199,6 @@ p{
     border: 1px dotted  var(--color5); 
     padding: 5px;
     margin: 2px
-
 
 }
 
@@ -251,6 +247,7 @@ p{
     padding: 5px;
     border-width: 0px;
     border: 1px solid  var(--color5); 
+
 }
 
 /* Contenido que tendria scroll */
@@ -258,13 +255,11 @@ p{
     border-style: none;
     border-width: 0px;
     margin: 2px 2px 3px 2px; 
-
     padding: 5px; 
     width: 1184px;
     height: 50px;
     clear: both;
     border: 1px dotted  var(--color5); 
-
    /* overflow-y: auto; */
 
 }
@@ -272,8 +267,7 @@ p{
 /* 3 Columnas */
 /* Primer columna */
 #columnas-2{
-   
-    background-color: var(--transparente);
+       background-color: var(--transparente);
     border-style: none;
     border-width: 0px;
     margin-left: auto; 
@@ -284,7 +278,6 @@ p{
 }
 
 #cuerpoizq{
-
     float: left;
     height: 400px;
     width: 384px;
@@ -296,7 +289,6 @@ p{
 
 /* 2da y 3ra */
 #cuerpoder{
-
     float: right;
     height: 400px;
     width: 800px;
@@ -352,7 +344,7 @@ text-decoration: none;
     font-variant: normal;
     text-decoration: none;
     
-    }
+}
 
 .texto{
 font-family: "Roboto", sans-serif;
