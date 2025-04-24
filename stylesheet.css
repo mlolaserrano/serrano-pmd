@@ -12,6 +12,21 @@
     --titulo: #6fa7dc;
     --subtitulo: #906fdc;
     --transparente: rgba(0, 0, 0, 0);
+    --citas: #828e99;
+    --acento: #d9a0e3;
+    
+    /* segundo */
+    --color1-dos: #006c97;
+    --color2-dos:#1495bd;
+    --color3-dos: #FBFBFB;
+    --color4-dos: #3c5a7d;
+    --color5-dos: #7c202f;
+    --texto-dos: #272727;
+    --titulo-dos: #479ead;
+    --subtitulo-dos: #1aa4bd;
+    --transparente-dos: rgba(0, 0, 0, 0);
+    --citas-dos: #828e99;
+    --acento-dos: #eba87c;
   }
 
 *{
@@ -35,6 +50,11 @@ a:visited{
 
 p{
     padding: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 18px;
+
 }
 
 
@@ -119,7 +139,7 @@ p{
     margin-left: auto; 
     margin-right: auto; 
     width: 1200px;
-    height: 1550px;
+    height: 1570px;
 
 }
 
@@ -143,6 +163,7 @@ p{
     width: 1200px; 
     height: 40px; /* Siempre restarle el padding al valor que uno quiere */
     padding: 10px ;
+    padding-top:17px;
     text-align: center;
 
 }
@@ -257,7 +278,7 @@ p{
     margin: 2px 2px 3px 2px; 
     padding: 5px; 
     width: 1184px;
-    height: 50px;
+    height: 75px;
     clear: both;
     border: 1px dotted  var(--color5); 
    /* overflow-y: auto; */
@@ -322,6 +343,41 @@ p{
 
 
 /* Clases */
+
+
+.boton{
+    border-radius: 25px;
+    border-style: solid;
+    padding: 5px;
+    width: 100%;
+    border-color: var(--titulo);
+    background-color: var(--titulo);
+    color: var(--color3);
+}
+
+.boton:hover{
+
+    background-color:var(--subtitulo);
+    border-color:var(--subtitulo);
+}
+
+
+.boton-dos{
+    border-radius: 25px;
+    border-style: solid;
+    padding: 5px;
+    width: 100%;
+    border-color: var(--titulo-dos);
+    background-color: var(--titulo-dos);
+    color: var(--color3);
+}
+
+.boton-dos:hover{
+    border-color: var(--subtitulo-dos);
+    background-color: var(--subtitulo-dos);
+}
+
+
 .title{
 font-family: "Unbounded", sans-serif;
 font-size: 25px;
@@ -347,7 +403,6 @@ text-decoration: none;
 }
 
 .texto{
-font-family: "Roboto", sans-serif;
 font-size: 14px;
 color: var(--texto);
 text-align: justify;
@@ -357,4 +412,347 @@ font-variant: normal;
 text-decoration: none;
 line-height: 18px;
 
+}
+
+.negrita{
+    font-weight: bold ;
+    color: var(--acento);
+}
+
+.italica{
+    font-style: italic;
+    color: var(--citas);
+}
+
+/* Segunda página */
+/* Columnas */
+/* Divisores - id */
+/* Encabezado */
+#divisor-dos{
+    background-color: var(--color1-dos);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+    color: white;
+
+}
+
+/* Navegación */
+#divisor2-dos{
+    background-color: var(--color2-dos);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+/* Titulo del Sitio */
+#divisor3-dos{
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+/* Columnas */
+#divisor4-dos #divisor5-dos{  
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+
+/* Footer */
+#divisor6-dos{  
+    background-color: var(--color4-dos);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+/* Divisores secundarios */
+#encabezado-dos{
+    background-color: var(--transparente-dos);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; /*Referencia: No todos tienen el mismo monitor por lo que se elige una medida estandar. 1600px es ideal */
+    height: 30px;
+
+} 
+
+#nav-dos{
+    background-color: var(--transparente-dos);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 50px;
+
+}
+
+#cuerpo-dos{
+    background-color: var(--transparente-dos);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 1570px;
+
+}
+
+#footer-dos{
+    background-color: var(--transparente-dos);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 100px;
+
+}
+
+/* Cuerpo */
+#titulo-dos{
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; 
+    height: 40px; /* Siempre restarle el padding al valor que uno quiere */
+    padding: 10px ;
+    padding-top:17px;
+    text-align: center;
+
+}
+
+/* 4 Columnas */
+#columnas-4-dos{
+    background-color: var(--transparente-dos);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 416px;
+
+}
+
+#cuerpoizq2-dos{
+    float: left;
+    height: 400px;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+
+}
+
+#cuerpoder2-dos{
+    float: right;
+    height: 400px;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#izq2-dos{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5-dos); 
+    padding: 5px;
+    margin: 2px
+
+}
+
+#dere2-dos{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5-dos); 
+    padding: 5px;
+    margin: 2px
+
+}
+
+#izq3-dos{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5-dos); 
+    padding: 5px;
+    margin: 2px
+  
+}
+
+#dere3-dos{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5-dos); 
+    padding: 5px;
+    margin: 2px
+
+}
+
+/* 2 Columnas */
+#izquierda-dos{
+    background-color: var(--transparente-dos);
+    float: left;
+    height: 545px ;
+    width: 584px;
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 5px 2px; 
+    padding: 5px;
+    border-width: 0px;
+    border: 1px dotted  var(--color5-dos); 
+
+}
+
+#derecha-dos{
+    float: right;
+    height: 545px ;
+    width: 584px;
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 5px 2px; 
+    padding: 5px;
+    border-width: 0px;
+    border: 1px solid  var(--color5-dos); 
+
+}
+
+/* Contenido que tendria scroll */
+#contenido-dos{
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 3px 2px; 
+    padding: 5px; 
+    width: 1184px;
+    height: 75px;
+    clear: both;
+    border: 1px dotted  var(--color5-dos); 
+   /* overflow-y: auto; */
+
+}
+
+/* 3 Columnas */
+/* Primer columna */
+#columnas-2-dos{
+       background-color: var(--transparente-dos);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 400px;
+
+}
+
+#cuerpoizq-dos{
+    float: left;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5-dos); 
+    
+}
+
+/* 2da y 3ra */
+#cuerpoder-dos{
+    float: right;
+    height: 400px;
+    width: 800px;
+    margin-left: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-width: 0px;
+    background-color: var(--transparente-dos);
+
+}
+
+#izq1-dos{
+    float: left;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5-dos); 
+
+}
+
+#dere1-dos{
+    float: right;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5-dos); 
+}
+
+
+
+/* Clases */
+.title-dos{
+font-family: "Unbounded", sans-serif;
+font-size: 25px;
+color: var(--titulo-dos);
+text-align: center;
+font-style: normal;
+font-weight: bold;
+font-variant: normal;
+text-decoration: none;
+
+}
+
+.subtitulo-dos{
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-size: 15px;
+    color: var(--subtitulo-dos);
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-decoration: none;
+    
+}
+
+.texto-dos{
+font-size: 14px;
+color: var(--texto-dos);
+text-align: justify;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-decoration: none;
+line-height: 18px;
+
+}
+
+.negrita-dos{
+    font-weight: bold ;
+    color: var(--acento-dos);
+}
+
+.italica-dos{
+    font-style: italic;
+    color: var(--citas-dos);
 }
