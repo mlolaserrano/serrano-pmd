@@ -492,13 +492,14 @@ line-height: 18px;
 } 
 
 #nav-dos{
-    background-color: var(--transparente-dos);
+    background-color: var(--transparente);
     border-style: none;
     border-width: 0px;
     margin-left: auto; 
     margin-right: auto; 
     width: 1200px;
-    height: 50px;
+    height: 35px;
+    padding-top: 15px;
 
 }
 
