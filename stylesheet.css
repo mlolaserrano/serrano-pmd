@@ -13,7 +13,7 @@
     --subtitulo: #906fdc;
     --transparente: rgba(0, 0, 0, 0);
     --citas: #828e99;
-    --acento: #d9a0e3;
+    --acento: #975ca1;
     
     /* segundo */
     --color1-dos: #006c97;
@@ -27,6 +27,18 @@
     --transparente-dos: rgba(0, 0, 0, 0);
     --citas-dos: #828e99;
     --acento-dos: #eba87c;
+
+        /* tercero */
+        --color1-tres: #82b5e4;
+        --color2-tres:#285b6e;
+        --color3-tres: #FBFBFB;
+        --color4-tres: #517d3c;
+        --color5-tres: #207c56;
+        --texto-tres: #272727;
+        --titulo-tres: #4e47ad;
+        --subtitulo-tres: #1a25bd;
+        --citas-tres: #828e99;
+        --acento-tres: #423840;
   }
 
 *{
@@ -45,7 +57,8 @@ a:hover{
 }
 
 a:visited{
-    color: rgb(223, 61, 61);
+    color: rgb(152, 212, 144);
+    font-weight: 900;
     
 }
 
@@ -773,3 +786,287 @@ font-family: "Roboto", sans-serif;
 text-align: center;
 
 }
+
+
+/* Servicios */
+#divisor-tres{
+    background-color: var(--color1-tres);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+    color: white;
+
+}
+
+/* Navegación */
+#divisor2-tres{
+    background-color: var(--color2-tres);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+/* Titulo del Sitio */
+#divisor3-tres{
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+/* Columnas */
+#divisor4-tres #divisor5-tres{  
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+
+/* Footer */
+#divisor6-tres{  
+    background-color: var(--color4-tres);
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+/* Divisores secundarios */
+#encabezado-tres{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; /*Referencia: No todos tienen el mismo monitor por lo que se elige una medida estandar. 1600px es ideal */
+    height: 30px;
+
+} 
+
+#nav-tres{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 35px;
+    padding-top: 15px;
+
+}
+
+#cuerpo-tres{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 1570px;
+
+}
+
+#footer-tres{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 100px;
+
+}
+
+/* Cuerpo */
+#titulo-tres{
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px; 
+    height: 40px; /* Siempre restarle el padding al valor que uno quiere */
+    padding: 10px ;
+    padding-top:17px;
+    text-align: center;
+
+}
+
+/* 4 Columnas */
+#columnas-4-tres{
+    background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 416px;
+
+}
+
+#cuerpoizq2-tres{
+    float: left;
+    height: 400px;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+
+}
+
+#cuerpoder2-tres{
+    float: right;
+    height: 400px;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-style: none;
+    border-width: 0px;
+
+}
+
+#izq2-tres{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5-tres); 
+    padding: 5px;
+    margin: 2px
+
+}
+
+#dere2-tres{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5-tres); 
+    padding: 5px;
+    margin: 2px
+
+}
+
+#izq3-tres{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5-tres); 
+    padding: 5px;
+    margin: 2px
+  
+}
+
+#dere3-tres{
+    float: left;
+    height: 400px;
+    width: 284px;
+    border: 1px dotted  var(--color5-tres); 
+    padding: 5px;
+    margin: 2px
+
+}
+
+/* 2 Columnas */
+#izquierda-tres{
+    background-color: var(--transparente);
+    float: left;
+    height: 545px ;
+    width: 584px;
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 5px 2px; 
+    padding: 5px;
+    border-width: 0px;
+    border: 1px dotted  var(--color5-tres); 
+
+}
+
+#derecha-tres{
+    float: right;
+    height: 545px ;
+    width: 584px;
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 5px 2px; 
+    padding: 5px;
+    border-width: 0px;
+    border: 1px solid  var(--color5-tres); 
+
+}
+
+/* Contenido que tendria scroll */
+#contenido-tres{
+    border-style: none;
+    border-width: 0px;
+    margin: 2px 2px 3px 2px; 
+    padding: 5px; 
+    width: 1184px;
+    height: 75px;
+    clear: both;
+    border: 1px dotted  var(--color5-tres); 
+   /* overflow-y: auto; */
+
+}
+
+/* 3 Columnas */
+/* Primer columna */
+#columnas-2-tres{
+       background-color: var(--transparente);
+    border-style: none;
+    border-width: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1200px;
+    height: 400px;
+
+}
+
+#cuerpoizq-tres{
+    float: left;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5-tres); 
+    
+}
+
+/* 2da y 3ra */
+#cuerpoder-tres{
+    float: right;
+    height: 400px;
+    width: 800px;
+    margin-left: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-width: 0px;
+    background-color: var(--transparente);
+
+}
+
+#izq1-tres{
+    float: left;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5-tres); 
+
+}
+
+#dere1-tres{
+    float: right;
+    height: 400px;
+    width: 384px;
+    margin: 2px;
+    padding: 5px; 
+    border: 1px dotted  var(--color5-tres); 
+}
+
